@@ -7,6 +7,23 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-    <?php echo "Hello, how are you doings"; ?>
+    <?php
+     $servername = "husaindevelops.c9oi84oo6l31.ap-south-1.rds.amazonaws.com";
+     $username = "admin";
+     $password = "husaindev29db";
+     $database = "indomitra_appmng";
+     
+     // Create connection
+     $conn = new mysqli($servername, $username, $password, $database);
+     
+     // Check connection
+     if ($conn->connect_error) {
+         die("Connection failed: " . $conn->connect_error);
+     }
+     echo "Connected successfully";
+     
+     $sitei=mysqli_fetch_array (mysqli_query ($conn,"select * from indomitra_appmng.accounts"));
+     echo $sitei [0];
+    ?>
     </body>
 </html>
