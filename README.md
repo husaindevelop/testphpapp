@@ -1,0 +1,1 @@
+- added index2.php for alternate homepage
