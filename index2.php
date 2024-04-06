@@ -20,7 +20,6 @@
      if ($conn->connect_error) {
          die("Connection failed: " . $conn->connect_error);
      }
-     echo "Connected successfully";
      
      $sitei=mysqli_fetch_array (mysqli_query ($conn,"select * from indomitra_appmng.accounts"));
      echo $sitei [0];
