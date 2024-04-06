@@ -7,6 +7,6 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-    <?php echo "Hello, how are you doing"; ?>
+    <?php echo "Hello, how are you doings"; ?>
     </body>
 </html>
