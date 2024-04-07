@@ -7,7 +7,7 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        Hello, how are you doing
+        <? echo "asdlf" ?>
     
     </body>
 </html>
