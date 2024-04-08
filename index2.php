@@ -23,7 +23,7 @@
      
      $sitei=mysqli_fetch_array (mysqli_query ($conn,"select * from indomitra_appmng.accounts"));
      echo $sitei [0];
-echo "Helloss";
+
     ?>
     </body>
 </html>
