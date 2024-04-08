@@ -7,7 +7,7 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <? echo "asdlf" ?>
+        <? echo "New Message" ?>
     
     </body>
 </html>
