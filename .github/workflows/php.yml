@@ -20,4 +20,4 @@ jobs:
 
       - name: Deploy application
         run: |
-          ssh -o StrictHostKeyChecking=no -i ${{ secrets.SSH_PRIVATE_KEY }} ec2-user@13.234.202.58 "cd /var/www/html/testphpapp && git pull origin main"
+          ssh -vvv -o StrictHostKeyChecking=no -i ${{ secrets.SSH_PRIVATE_KEY }} ec2-user@13.234.202.58 "cd /var/www/html/testphpapp && git pull origin main"
