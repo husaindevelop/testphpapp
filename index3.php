@@ -7,7 +7,11 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <?php echo "New Message" ?>
+        <?php 
+        
+        echo "You know what is going on".strtoupper ("Hello");
+        
+        ?>
     
     </body>
 </html>
