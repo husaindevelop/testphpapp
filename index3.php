@@ -7,7 +7,7 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <? echo "New Message" ?>
+        <?php echo "New Message" ?>
     
     </body>
 </html>
